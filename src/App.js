@@ -12,7 +12,7 @@ function ConnectedApp(props) {
     <div>
       <h1>Customers</h1>
       <ul>
-        {props.myCustomers.map( c => <li>{c.first_name} {c.last_name}</li>)}
+        {props.m.map( c => <li>{c.first_name} {c.last_name}</li>)}
       </ul>
     </div>
   )
