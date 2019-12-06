@@ -1,3 +1,5 @@
+import {ADD_CUSTOMER} from '../constants/index'
+
 const initialState = {
     customers:[]
 }
@@ -12,5 +14,7 @@ export default function rootReducer(state=initialState, action)
 {
     // cannot change/access global variables
     // cannot modify any variables (arrays, objects) directly
+    if (action.type == ADD_CUSTOMER)
  
+    return state;
 }
