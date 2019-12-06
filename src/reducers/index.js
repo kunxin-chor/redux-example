@@ -1,7 +1,19 @@
 import {ADD_CUSTOMER} from '../constants/index'
 
 const initialState = {
-    customers:[],
+    customers:[
+        {
+            id:1,
+            first_name:'Mary',
+            last_name:'Sue'
+        },
+        {
+            id:2,
+            first_name:'Jane',
+            last_name:'Doe'
+        }
+
+    ],
     current_logged_in_user:0
 }
 

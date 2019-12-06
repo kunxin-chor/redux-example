@@ -15,7 +15,7 @@ import { addCustomer} from './actions/index'
 // window.addCustomer = addCustomer
 
 ReactDOM.render(
-<Provider>
+<Provider store={store}>
     <App />
 </Provider>, document.getElementById('root'));
 
